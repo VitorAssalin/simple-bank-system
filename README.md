@@ -1,0 +1,18 @@
+# ☕ Projeto Bank - Java Básico
+
+Projeto prático desenvolvido durante o curso introdutório de Java para iniciantes no YouTube, ministrado pelo **Thiago Aguiar**.
+
+[![YouTube](https://img.shields.io/badge/YouTube-Assistir%20à%20Aula-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=_lNxxTGuAJc&list=PLJ0AcghBBWSi6nK2CUkw9ngvwWB1gE8mL&index=39)
+
+
+---
+
+### 📌 Status Atual
+
+No momento, o sistema realiza as operações internamente e as opções e resultados são visualizados apenas por meio do **console/log**.
+
+### 🚀 Próximos Passos
+
+- [ ] Implementar a classe `Scanner` para permitir interação direta do usuário via terminal.
+- [ ] Explorar e aplicar novos conceitos de Orientação a Objetos (POO).
+- [ ] Adicionar novas tecnologias e ferramentas para evoluir a arquitetura do projeto.
