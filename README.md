@@ -14,6 +14,6 @@ No momento, o sistema realiza as operações internamente e as opções e result
 
 ### 🚀 Próximos Passos
 
-- [ ] Implementar a classe `Scanner` para permitir interação direta do usuário via terminal.
+- [X] Implementar a classe `Scanner` para permitir interação direta do usuário via terminal.
 - [ ] Explorar e aplicar novos conceitos de Orientação a Objetos (POO).
 - [ ] Adicionar novas tecnologias e ferramentas para evoluir a arquitetura do projeto.
