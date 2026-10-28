@@ -54,7 +54,7 @@ public class Account {
 
     @Override
     public String toString() {
-        String result = "A conta " + this.name  + " " + this.ag + " / " + this.cc + "possui: R$ " + balance;
+        String result = "A conta " + this.name  + " " + this.ag + " / " + this.cc + " possui: R$ " + balance;
         return result;
     }
 }
