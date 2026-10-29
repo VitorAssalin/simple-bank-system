@@ -15,5 +15,6 @@ No momento, o sistema realiza as operações internamente e as opções e result
 ### 🚀 Próximos Passos
 
 - [X] Implementar a classe `Scanner` para permitir interação direta do usuário via terminal.
-- [ ] Explorar e aplicar novos conceitos de Orientação a Objetos (POO).
+- [X] Explorar e aplicar novos conceitos de Orientação a Objetos (POO).
+- [ ] Adicionar uma tela interativa com o JOptionPane.
 - [ ] Adicionar novas tecnologias e ferramentas para evoluir a arquitetura do projeto.
