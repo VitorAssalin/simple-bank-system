@@ -37,7 +37,7 @@ O projeto foi estruturado com foco em boas práticas de POO e separação de res
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Linguagem:** Java (JDK 17+)
+- **Linguagem:** Java (JDK 14+)
 - **Coleções:** `java.util.List` e `java.util.ArrayList`
 - **Entrada/Saída:** `java.util.Scanner` e Console I/O
 
