@@ -51,6 +51,9 @@ public class Account {
 
         }
     }
+        public double getBalance(){
+            return balance;
+        }
 
     @Override
     public String toString() {

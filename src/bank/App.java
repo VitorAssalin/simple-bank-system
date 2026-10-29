@@ -8,6 +8,7 @@
 
 package bank;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class App {
@@ -15,8 +16,38 @@ public class App {
     public static void main(String[] args) {
         //Depositar, Saque, Sair
         Scanner scanner = new Scanner(System.in);
-        Account account = new Account("0001", "1234 ", "Vitor");
 
+        //C = Criar conta
+        //E = Sair (exit)
+        Bank santander = new Bank("0001");
+        while (true) {
+            System.out.println("O que deseja fazer:\n\nC = Criar conta\nE = Sair");
+            String op = scanner.nextLine();
+
+            if (op.equals("C")) {
+                System.out.println("Digite o seu nome:");
+                String name = scanner.nextLine();
+                System.out.println(name);
+                Account account = santander.generateAccount(name);
+                santander.insertAccount(account);
+                operateAccount(account);
+            } else if (op.equals("E")) {
+                break;
+
+            } else {
+                System.out.println("Comando inválido");
+            }
+        }
+        List<Account> accountList =santander.getAccounts();
+        //Nomenclatura padrão para fazer loops em objetos
+        for(Account cc : accountList){
+            System.out.println(cc);
+        }
+        santander.outputTotal();
+    }
+
+    static void operateAccount(Account account) {
+        Scanner scanner = new Scanner(System.in);
         //Se o usuário digitar:
         // D = Depositar
         // S = Sacar
@@ -39,7 +70,7 @@ public class App {
 
             } else if (op.equals("E")) {
                 break;
-            } else{
+            } else {
                 System.out.println("Comando inválido");
             }
             //Evita usar o mesmo Scanner em todos os loops
